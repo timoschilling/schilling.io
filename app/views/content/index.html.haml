@@ -1,0 +1,33 @@
+%h1 timo@schilling.io
+
+.box#networs
+  %h2 networks
+  %ul
+    - Network.all.each do |network|
+      %li
+        %a{:href => network.url}= network.name
+
+.box#technics
+  %h2 technics
+  %ul
+    - Technic.all.each do |network|
+      %li
+        %a{:href => '#'}= network.name
+
+.box#contact
+  %h2 contact
+  %ul
+    %li
+      %a{:href => 'mailto:timo@schilling.io'} timo@schilling.io
+    %li
+      %a{:href => 'tel:+4915150616078'} +49151/5061607
+    %li
+      %a{:href => 'http://twitter.com/captainhagbard'} @captainhagbard
+
+.box#references
+  %h2 references
+  %span coming soon
+
+.box#blog
+  %h2 blog
+  %span coming soon

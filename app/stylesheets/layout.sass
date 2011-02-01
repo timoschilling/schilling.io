@@ -1,0 +1,62 @@
+html, body, #wrap
+  height: 100%
+  width: 100%
+
+body
+  font:
+    family: courier
+
+#wrap
+  width: 900px
+  height: 100px
+  margin: 0 auto
+  position: relative
+  height: 100%
+
+a
+  text-decoration: none
+  color: black
+  &:hover
+    text-decoration: underline
+
+h1
+  font-size: 75px
+  text-align: center
+  top: 50%
+  position: absolute
+  width: 100%
+
+h2
+  font-size: 30px
+  &:hover
+    text-decoration: underline
+
+.box
+  background: white
+  cursor: pointer
+  position: absolute
+  z-index: 1
+  & > *
+    display: none
+  h2, &:hover > *
+    display: block
+
+#networs
+  top: 20%
+  left: 10%
+
+#technics
+  top: 75%
+  left: 30%
+
+#contact
+  top: 30%
+  left: 50%
+
+#blog
+  top: 15%
+  left: 80%
+
+#references
+  top: 85%
+  left: 60%

@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %title timo@schilling.io
+    = stylesheet_link_tag 'reset', 'layout'
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    #wrap
+      = yield
